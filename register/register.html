@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>register</title>
+  <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      user-select: none;
+    }
+
+    @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+      }
+    }
+  </style>
+
+  <link href="form-validation.css" rel="stylesheet">
+</head>
+
+<body class="bg-light">
+  <div class="container">
+    <main>
+      <div class="py-5 text-center">
+        <img  src="register.png" alt="register" width="72" height="57">
+        <h2>登入/註冊</h2>
+        <p></p>
+      </div>
+
+      
+        <div class="row justify-content-center">
+          <div class="col-md-3 col-md-6 col-md-3">
+            <h4 class="mb-3">個人資料</h4>
+            <form class="needs-validation" novalidate>
+              <div class="row g-3">
+                <div class="col-12">
+                  <label for="Name" class="form-label">姓名 Name</label>
+                  <input type="text" class="form-control" id="Name" placeholder="" value="" required>
+                  <div class="invalid-feedback">
+                      Your name is required.
+                  </div>
+                </div>
+                <div class="col-12">
+                  <label for="username" class="form-label">帳號 Username</label>
+                  <div class="input-group">
+                    <input type="text" class="form-control" id="username" placeholder="" required>
+                    <div class="invalid-feedback">
+                      Your username is required.
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-12">
+                  <label for="email" class="form-label">電子郵件 Email</label>
+                  <input type="email" class="form-control" id="email" placeholder="" required>
+                  <div class="invalid-feedback">
+                    Please enter a valid email address for shipping updates.
+                  </div>
+                </div>
+
+                <div class="col-12">
+                  <label for="phonenumber" class="form-label">電話號碼 Phone number</label>
+                  <input type="text" class="form-control" id="phonenumber" placeholder="" required>
+                  <div class="invalid-feedback">
+                    Please enter your phone number.
+                  </div>
+                </div>
+                <div class="col-12">
+                  <label for="address" class="form-label">地址 Address</label>
+                  <input type="text" class="form-control" id="address" placeholder="" required>
+                  <div class="invalid-feedback">
+                    Please enter your shipping address.
+                  </div>
+                </div>
+                <div class="form-check">
+                  <input type="checkbox" class="form-check-input" id="save-info">
+                  <label class="form-check-label" for="save-info">記住我 Remember me</label>
+                </div>
+                <button class="w-100 btn btn-primary btn-lg" type="submit">送出 submit</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      
+    </main>
+
+      <footer class="my-5 pt-5 text-muted text-center text-small">
+        <p class="mb-1">&copy; 2021 Company Name</p>
+        <ul class="list-inline">
+          <li class="list-inline-item"><a href="#">Privacy</a></li>
+          <li class="list-inline-item"><a href="#">Terms</a></li>
+          <li class="list-inline-item"><a href="#">Support</a></li>
+        </ul>
+      </footer>
+  </div>
+
+
+        <script src="../bootstrap/js/bootstrap.bundle.min.js"></script>
+
+          <script src="form-validation.js"></script>
+</body>
+</html>
