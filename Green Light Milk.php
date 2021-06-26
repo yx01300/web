@@ -48,7 +48,6 @@
     </section>
     <div id="content">
       <section class="sidebar">
-        <input type="text" id="search" value="search">
         <div id="menubar">
           <nav class="menu">
             <h2>MENU-迷客夏</h2>
