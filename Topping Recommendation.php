@@ -20,11 +20,6 @@
       text-decoration: none;
       color: rgba(146, 146, 146, 1.00);
     }
-
-    .search_result {
-      overflow: auto;
-      height: 100px;
-    }
   </style>
   <script>
     //讓送出後不跳到別的頁面
