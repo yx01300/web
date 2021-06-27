@@ -104,8 +104,8 @@
                     <div class="modal-body">
                       <div>
                         <font face="標楷體">容量: </font>
-                        <input type="radio" name="Size" value="M" checked="True" /> M &nbsp; &nbsp;
-                        <input type="radio" name="Size" value="L" /> L<br />
+                        <input type="radio" name="Size" value="M" checked="True" /> L&nbsp; &nbsp;
+                        <input type="radio" name="Size" value="L" /> 瓶<br />
                       </div>
                       <div>
                         <font face="標楷體">甜度:
@@ -163,8 +163,8 @@
                     <div class="modal-body">
                       <div>
                         <font face="標楷體">容量: </font>
-                        <input type="radio" name="Size" value="M" checked="True" /> M &nbsp; &nbsp;
-                        <input type="radio" name="Size" value="L" /> L<br />
+                        <input type="radio" name="Size" value="M" checked="True" /> L &nbsp; &nbsp;
+                        <input type="radio" name="Size" value="L" />瓶<br />
                       </div>
                       <div>
                         <font face="標楷體">甜度:
@@ -282,8 +282,8 @@
                     <div class="modal-body">
                       <div>
                         <font face="標楷體">容量: </font>
-                        <input type="radio" name="Size" value="M" checked="True" /> M &nbsp; &nbsp;
-                        <input type="radio" name="Size" value="L" /> L<br />
+                        <input type="radio" name="Size" value="M" checked="True" /> L &nbsp; &nbsp;
+                        <input type="radio" name="Size" value="L" />瓶<br />
                       </div>
                       <div>
                         <font face="標楷體">甜度:
@@ -341,8 +341,8 @@
                     <div class="modal-body">
                       <div>
                         <font face="標楷體">容量: </font>
-                        <input type="radio" name="Size" value="M" checked="True" /> M &nbsp; &nbsp;
-                        <input type="radio" name="Size" value="L" /> L<br />
+                        <input type="radio" name="Size" value="M" checked="True" /> L &nbsp; &nbsp;
+                        <input type="radio" name="Size" value="L" /> 瓶<br />
                       </div>
                       <div>
                         <font face="標楷體">甜度:
