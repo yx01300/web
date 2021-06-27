@@ -53,7 +53,8 @@
         <div id="menubar">
           <nav class="menu">
             <h2>
-              MENU-迷客夏</h2>
+              <font size="5">MENU-迷客夏</font>
+            </h2>
             <hr>
             <ul>
               <li><a href="Topping Recommendation.php" title="Topping Recommendation">嚼對推薦</a></li>
